@@ -13,7 +13,7 @@ a {
 }
 
 .top-page {
-    background-color: rgb(233, 76, 233);
+    background-color: rgb(180,161,235);
 }
 
 .titles {
@@ -44,7 +44,7 @@ a {
 }
 
 .top-block {
-    background-color: rgb(233, 76, 233);
+    background-color: rgb(180,161,235);
     display: flex;
     justify-content: space-between;
     gap: 32px;
@@ -72,13 +72,14 @@ a {
     flex: 1;
 }
 .top-block button {
-    max-width: 100px;
+    max-width: 120px;
     height: auto;
-    padding: 8px;
+    padding: 12px;
     border: none;
     border-radius: 5px;
     color: white;
-    background-color: rgb(179, 27, 171);
+    font-size: 16px;
+    background-color: rgb(209,200,237);
     font-weight: 600;
 }
 
@@ -129,7 +130,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: violet;
+    background-color: rgb(209,200,237);
     padding: 30px;
     gap: 10vh;
     border-radius: 5px;
@@ -141,7 +142,7 @@ a {
     color: white;
 }
 .bottom-block button {
-    background-color: violet;
+    background-color: rgb(209,200,237);
     color: white;
     border: 2px solid white;
     border-radius: 5px;
@@ -153,6 +154,6 @@ a {
     justify-content: center;
     align-items: center;
     color: white;
-    background-color: violet;
+    background-color: rgb(180,161,235);
     padding: 20px;
 }
