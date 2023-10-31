@@ -32,7 +32,7 @@ a {
 }
 .header-links {
     display: flex;
-    gap: 16px;
+    gap: 32px;
     font-weight: bold;
 }
 
@@ -41,19 +41,20 @@ a {
     display: flex;
     justify-content: space-between;
     gap: 32px;
-    padding: 16px 10%;
-    max-height: 350px;
+    padding: 36px 10%;
+    max-height: 40vh;
 }
 
 .top-block img {
+    display: flex;
+    flex-direction: column;
     border: 2px dotted white;
-    flex-basis: 700px;
+    flex-basis: 500px;
     height: auto;
     max-width: 50%;
-    flex-shrink: 2;
+    flex-shrink: 1;
 }
 .top-block-text {
-    color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -62,12 +63,19 @@ a {
     padding: 0;
     flex: 1;
 }
+.top-block-text span {
+    color: white;
+    font-size: 24;
+}
 .top-block button {
     max-width: 100px;
     height: auto;
-    padding: 5px;
+    padding: 8px;
     border: none;
     border-radius: 5px;
+    color: white;
+    background-color: rgb(179, 27, 171);
+    font-weight: 600;
 }
 
 .second-block {
@@ -86,7 +94,7 @@ a {
     display: flex;
     flex-direction: column;
     max-width: 175px;
-    height: auto;
+    flex-basis: 175px;
     text-align: center;
     gap: 8px;
 }
@@ -102,9 +110,35 @@ a {
     padding: 64px 20%;
     font-size: 20px;
     font-style: italic;
+    flex-basis: 10vh;
+    align-items: center;
 }
 
 .creator-comment-block .signature {
     font-weight: bold;
     align-self: flex-end;
+}
+
+.bottom-block {
+    margin: 5vh auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: violet;
+    padding: 30px;
+    gap: 10vh;
+    border-radius: 5px;
+}
+
+.bottom-block-text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.bottom-block button {
+    background-color: violet;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px;
 }
