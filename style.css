@@ -4,6 +4,7 @@ body {
     flex-direction: column;
     margin: 0;
     padding: 0;
+    min-height: 100vh;
 }
 
 a {
@@ -13,6 +14,12 @@ a {
 
 .top-page {
     background-color: rgb(233, 76, 233);
+}
+
+.titles {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
 }
 
 .header {
@@ -31,7 +38,33 @@ a {
     font-weight: bold;
 }
 
-.page-info {
+.top-block {
     background-color: rgb(233, 76, 233);
     display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    padding: 5% 10%;
+}
+
+.top-block img {
+    border: 2px dotted white;
+    flex-basis: 700px;
+    height: auto;
+    max-width: 50%;
+    flex: 1;
+}
+.top-block-text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+    flex: 1;
+}
+.top-block button {
+    max-width: 100px;
+    height: auto;
+    padding: 5px;
 }
